@@ -1,4 +1,3 @@
-
 let offerSection = document.querySelector('.offers-section')
 const imgArray = ['/assets/product-img-3.jpg','/assets/product-img-4.jpg','/assets/product-img-5.jpg'];
 let i =0;
@@ -15,6 +14,3 @@ const changeOfferImg = () =>{
 }
 
 setInterval(changeOfferImg,2000)
-
-
-// =${imgArray[0]}
