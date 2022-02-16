@@ -1,0 +1,51 @@
+body{
+    background-color: var(--background-color);
+}
+nav{
+    height: 5rem;
+    background-color: var(--background-color);
+}
+ion-icon{
+    color: black;
+}
+.search-bar{
+    border: 2.5px solid var(--black);
+}
+.main-section{
+    width: 90vw;
+    margin: 2.5vh 5vw;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.featured-product-section{
+    width: inherit;
+    display: flex;
+    gap:1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.text-overlay-card{
+    opacity: 1;
+}
+.card-img{
+    height: 10rem;
+}
+.text-overlay{
+    bottom: 5rem;
+    width: inherit;
+}
+.badge{
+    background-color: var(--white);
+    color: var(--black);
+    margin-top: -0.75rem;
+}
+
+
+.new-arrivals-section{
+    display: flex;
+    gap: 2.5rem;
+}
