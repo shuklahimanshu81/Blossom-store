@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    height: fit-content;
     background-color: var(--white);
     box-shadow: 5px 10px var(--gray);
     margin: 0.5rem 0.75rem;
@@ -41,6 +42,36 @@
     flex-direction: column;
     font-size: calc(var(--text-size-m) - 6px);
 }
+
 label{
     padding: 0.25rem;
+}
+
+.products-shown{
+    font-size: var(--text-size-m);
+    padding-bottom: 1rem;
+}
+
+.products-number{
+    font-size: calc(var(--text-size-m) - 8px);
+}
+
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.text-overlay-card{
+    opacity: 0.5;
+}
+
+.text-overlay{
+     bottom:50%;
+} 
+
+.card-badge{
+    position:static;
+    margin-top: -100%;
+    font-weight: bold;
 }
