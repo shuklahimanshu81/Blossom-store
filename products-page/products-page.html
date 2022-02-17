@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://ui-blossom.netlify.app/main-css/main.css">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/products-page/products-page.css">
+    <title> Blossom Store </title>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href=""> <img src="/assets/store-logo.png" alt="Blossom store" class="logo-img"></a>
+        </div>
+        <div class="nav-center">
+            <input class="search-bar" type="text" placeholder="Search here..." />
+        </div>
+        <div class="right-nav">
+            <ul class="nav-items">
+                <li class="list-item">
+                    <button class="primary-btn btn">Log In </button>
+                </li>
+                <li class="list-item flex">
+                    <a class="item" href="">
+                        <ion-icon name="cart"></ion-icon>
+                    </a>
+                    <div class="icon-badge badge"> 4 </div>
+
+                </li>
+                <li class="list-item flex">
+                    <a class="item" href="">
+                        <ion-icon name="heart-outline"></ion-icon>
+                    </a>
+                    <p class="icon-badge badge"> 9 </p>
+                </li>
+            </ul>
+        </div>
+        <div class="right-nav-menu">
+            <ion-icon name="menu-outline"></ion-icon>
+        </div>
+    </nav>
+    <main class="grid">
+        <section class="filters">
+            <div class="filter-heading">
+             <a class="filter-sub-heading">
+                 Filter
+             </a>
+             <a class="filter-sub-heading">
+                 Clear
+             </a>
+            </div> 
+            <div class="filter-div">
+                <p class="filter-type">
+                    Price
+                </p>
+                <input type="range" min="0" max="250" class="price-slider" />
+            </div>
+            <div class="filter-div">
+             <p class="filter-type">
+                 Category
+             </p>
+             <div class="input-div">
+                <label>
+                    <input name="category-1" id ="Men-category" type="checkbox">
+                    Men's Clothing
+                   </label>
+                   
+                   <label>
+                    <input name="category-2" id="child-category" type="checkbox">
+                    Child's Clothing
+                   </label>
+             </div>
+                
+            </div>
+            <div class="filter-div">
+             <p class="filter-type">
+                 Rating
+             </p>
+             <div class="input-div">
+                <label>
+                    <input type="radio" name="rating"/>4 Star & above
+                </label>
+                <label>
+                    <input type="radio" name="rating"/>3 Star & above
+                </label>
+                <label>
+                    <input type="radio" name="rating"/>2 Star & above
+                </label>
+                <label>
+                    <input type="radio" name="rating"/>1 Star & above
+                </label>
+             </div>
+            
+            </div>
+            <div class="filter-div">
+                <p class="filter-type">
+                    Sort by
+                </p>
+                <div class="input-div">
+                    <label>
+                        <input type="radio" name="sort">
+                        Price - Low to High
+                    </label>
+                    <label>
+                     <input type="radio" name="sort">
+                     Price - High to Low
+                 </label>
+                </div>
+            </div>
+         </section>
+         <section class="products-section">
+
+         </section>
+    </main>
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+</body>
+</html>
