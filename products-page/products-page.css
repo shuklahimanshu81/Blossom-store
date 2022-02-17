@@ -72,6 +72,16 @@ label{
 
 .card-badge{
     position:static;
-    margin-top: -100%;
+    margin-top: -115%;
     font-weight: bold;
+}
+.card-secondary-btn{
+     display: flex;
+     margin-right: 0;
+    align-items: center; 
+    justify-content: center;
+}
+
+.favs{
+    font-size: calc(var(--text-size-s) + 4px);
 }
