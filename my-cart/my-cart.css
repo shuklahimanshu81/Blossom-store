@@ -1,0 +1,84 @@
+.cart-heading {
+    text-align: center;
+    padding: 2.5rem;
+  }
+  .main-div-cart {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+  }
+  .horizontal-card {
+    border: 1px solid var(--primary-color);
+  }
+  
+  .about-card {
+    background-color: var(--gray);
+    padding: 0.5rem 0.5rem;
+  }
+  .hz-card-img {
+    height: 15rem;
+  }
+  .org-price {
+    font-size: var(--text-size-s);
+  }
+  .quantity-div {
+    display: flex;
+    align-items: center;
+    gap: 3.5%;
+  }
+  .increase-qty-btn,
+  .decrease-qty-btn {
+    background-color: var(--white);
+    border: 1px solid black;
+    font-size: var(--text-size-m);
+    font-weight: bold;
+    border-radius: var(--border-radius-f);
+    width: 2.5rem;
+  }
+  .quantity {
+    border-radius: 0;
+    text-align: center;
+    font-weight: normal;
+    font-size: var(--text-size-m);
+  }
+  .card-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+  .card-btn {
+    width: inherit;
+  }
+  .text-only-card {
+    border-radius: 0;
+    /* margin-left: auto; */
+  }
+  .pricing-details {
+    flex-direction: column;
+    font-size: var(--text-size-s);
+  }
+  .act-price,
+  .discount,
+  .del-charge,
+  .total-amt,
+  .extra-details,
+  .price-detail-heading {
+    padding: 0.5rem;
+  }
+  .price-detail-heading,
+  .del-charge,
+  .total-amt {
+    border-bottom: 1.5px solid black;
+  }
+  
+  .price-detail-heading {
+    font-weight: bold;
+  }
+  .flex {
+    align-items: initial;
+  }
+  .amounts {
+    margin-left: auto;
+  }
+  
