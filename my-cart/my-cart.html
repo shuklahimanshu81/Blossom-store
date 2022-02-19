@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Blossom Store</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://ui-blossom.netlify.app/main-css/main.css"/>
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="/my-cart/my-cart.css" />
+  </head>
+  <body>
+    <nav>
+      <div>
+        <a href="">
+          <img
+            src="/assets/store-logo.png"
+            alt="Blossom store"
+            class="logo-img"
+        /></a>
+      </div>
+      <div class="nav-center">
+        <input class="search-bar" type="text" placeholder="Search here..." />
+      </div>
+      <div class="right-nav">
+        <ul class="nav-items">
+          <li class="list-item">
+            <button class="primary-btn btn">Log In</button>
+          </li>
+          <li class="list-item flex">
+            <a class="item" href="">
+              <ion-icon name="cart"></ion-icon>
+            </a>
+            <div class="icon-badge badge">4</div>
+          </li>
+          <li class="list-item flex">
+            <a class="item" href="">
+              <ion-icon name="heart-outline"></ion-icon>
+            </a>
+            <p class="icon-badge badge">9</p>
+          </li>
+        </ul>
+      </div>
+      <div class="right-nav-menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </div>
+    </nav>
+    <h1 class="cart-heading">MY CART(1)</h1>
+
+    <main class="main-div-cart">
+      <div class="horizontal-card">
+        <div class="card-img-section">
+          <img
+            src="https://images.unsplash.com/photo-1562157873-818bc0726f68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80"
+            alt="pack of 6 t-shirts"
+            class="hz-card-img"
+          />
+        </div>
+        <div class="about-card">
+          <div class="sub-heading">
+            Him T-shirts
+          </div>
+          <div class="subheading-2">Men's Regular Fit T-Shirt (Pack of 6)</div>
+          <div class="card-detail">
+            <div>Rs. 599 <strike class="org-price"> Rs. 1999 </strike></div>
+          </div>
+          <div class="quantity-div">
+            <p class="qty-heading">
+              Quantity :
+            </p>
+            <button class="decrease-qty-btn">-</button>
+            <p class="quantity">2</p>
+            <button class="increase-qty-btn">+</button>
+          </div>
+          <div class="card-btns">
+            <button class="card-primary-btn card-btn">Remove from cart</button>
+            <button class="card-secondary-btn card-btn">
+              Move to wishlist
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="text-only-card">
+        <div class="price-detail-heading">
+          PRICE DETAILS
+        </div>
+        <div class="card-detail">
+          <div class="pricing-details flex">
+            <div class="act-price flex">
+              <p>Price(2 items)</p>
+              <p class="amounts">Rs.1198</p>
+            </div>
+            <div class="discount flex">
+              <p>Discount</p>
+              <p class="amounts">Rs. 2800</p>
+            </div>
+            <div class="del-charge flex">
+              <p>Delivery Charges</p>
+              <p class="amounts">Rs. 499</p>
+            </div>
+            <div class="total-amt flex">
+              <p>TOTAL AMOUNT</p>
+              <p class="amounts">Rs. 1697</p>
+            </div>
+            <div class="extra-details">
+              You will save Rs. 2800 on this order
+            </div>
+          </div>
+        </div>
+        <div class="card-btns">
+          <button class="card-primary-btn card-btn">PLACE ORDER</button>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,23 @@
+.saved-as-fav{
+    margin-left: -5rem;
+    margin-top: -90%;
+}
+
+.saved-as-fav-icon{
+    color: red;
+    background-color: var(--white);
+    border-radius: var(--border-radius-f);
+}
+
+.wishlist-management-section{
+    margin:1rem;
+    gap: 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.card-img{
+    height: 17.5;
+}

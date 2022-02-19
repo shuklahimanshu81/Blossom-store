@@ -4,6 +4,8 @@ body{
 nav{
     height: 5rem;
     background-color: var(--background-color);
+    border-bottom: 2.5px solid var(--gray);
+
 }
 ion-icon{
     color: black;
