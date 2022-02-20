@@ -1,18 +1,24 @@
-nav{
-    opacity: 1;
-}
-.main-div{
+
+body{
     height: 100vh;
     background-image: url("/assets/login-page-bg-img.jfif");
     background-repeat: no-repeat;
     background-size: cover;
+    
+}
+.heading{
+    text-align: center;
+}
+.main-div{
+    background-image: none;
+    height: auto;
 }
 .form-inputs{
     background-color: var(--white);
     border: 2.5px solid var(--black);
     box-shadow: 5px 0px var(--gray);
     border-radius: var(--border-radius-l);
-    height: 60vh;
+    height: auto;
     flex-direction: column;
     width: 40vw;
     margin: auto;
@@ -22,28 +28,31 @@ nav{
     height: 2.5rem;
 }
 .form{
-    width: 75%;  
+    height: auto;
+    width:50%;  
     border: none;
    
 }
 .input{
    border-radius: var(--border-radius-m);
-   width: 100%;
+   width: 90%;
     margin-top: 0.5rem;
 }
 .label{
     font-size: calc(var(--text-size-m) - 4px );
     padding: 0.55rem;
-    width: 100%;
+    width: 90%;
 }
 .forgot-pass-div{
+    font-size: 1.1rem;
     padding: 1rem;
     width: 80%;
 }
 
 .forgot-pass{
-    margin-left: auto;
-    font-size: calc(var(--text-size-s) + 2px);
+font-size: calc(var(--text-size-s) + 2px);
+margin-left: 25%;
+
 }
 .new-user{
     font-size: var(--text-size-m);
@@ -53,4 +62,5 @@ nav{
 
 .forgot-pass-link{
     color: var(--primary-color);
+    
 }
