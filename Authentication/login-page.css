@@ -37,6 +37,7 @@ body{
    border-radius: var(--border-radius-m);
    width: 90%;
     margin-top: 0.5rem;
+    font-weight: normal;
 }
 .label{
     font-size: calc(var(--text-size-m) - 4px );
