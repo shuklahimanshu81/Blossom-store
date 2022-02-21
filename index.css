@@ -5,7 +5,7 @@ nav{
     height: 5rem;
     background-color: var(--background-color);
     border-bottom: 2.5px solid var(--gray);
-
+    justify-content: space-between;
 }
 ion-icon{
     color: black;
